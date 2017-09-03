@@ -35,9 +35,9 @@ public class MainActivity extends AppCompatActivity {
             i.putExtra(Intent.EXTRA_EMAIL,reciepnt);
             i.putExtra(Intent.EXTRA_SUBJECT, "hi this is a test");
             i.putExtra(Intent.EXTRA_TEXT,"Text message");
-            i.setType("message/rfc2");
+            i.setType("message/rfc8222");
             startActivity(i);
         }
-
+        
     }
-}
+    
